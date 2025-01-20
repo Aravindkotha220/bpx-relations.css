@@ -1,0 +1,78 @@
+
+h1{
+    color:green;
+}
+.box-px{
+    width:200px;
+    height: 100px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+/* task 2 */
+.parent-percent{
+    width: 150px;
+    height: 100px;
+    font-size: 20px;
+    border: 2px solid red;
+}
+.child-percent{
+    width: 50%;
+    border: 2px solid blue;
+}
+/* task 3 */
+.rem-paragraph{
+    font-size: 2rem;
+}
+/* task 4 */
+.parent-em{
+    font-size: 16px;
+}
+.child-em{
+    font-size: 1.5em;
+}
+/* task 5 */
+.box-vw{
+    width: 50vw;
+    border: 2px solid black;
+}
+/* task 6 */
+.box-vh{
+    /* width: 50vh; */
+    height: 25vh;
+    border: 2px solid orange;
+}
+/* task 7 */
+.square-vmin{
+    width: 20vmin;
+    height: 20vmin;
+    font-size: 15px;
+    border: 2px solid brown;
+}
+/* task 8 */
+.square-vmax{
+    width: 20vmax;
+    height: 20vmax;
+    font-size: 20px;
+    border: 2px solid blue;
+}
+/* task 9 */
+.parent-relative{
+    width: 300px;
+    height: 150px;
+    position: relative;
+    border: 2px solid red;
+}
+.child-absolute{
+    /* width: 50%; */
+    position: absolute;
+   bottom: 0px;
+   right: 0px;
+    border: 2px solid blue;
+}
+/* task 10 */
+.parent-font{
+    font-size: 18px;
+}
+.child-font{
+    font-size: inherit;
+}
